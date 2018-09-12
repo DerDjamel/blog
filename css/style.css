@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLE */
+ul, li, a{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/* NAVBAR STYLE */
+.blog-posts header {
+    height: 80px;
+    line-height: 80px
+}
+
+header h1{
+    margin: 0;
+}
+
+header h1, header nav{
+    display: inline-block;
+}
+header nav{
+    float: right;
+}
+
+.blog-posts header nav::after{
+    content: '';
+    display: block;
+    width: 0; height: 0;
+    clear: both;
+}
+
+.blog-post {
+    width: 70%;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+.comments{
+    margin-top: 50px;
+}
+
+.comment {
+    margin: 25px 0;
+}
+
+.comment span{
+    font-size: 1.5rem;
+}
+
+
+
+.user-header{
+    display: block;
+    line-height: normal;
+}
+
+
+.user-header nav{
+    float: none;
+    margin: 20px 0;
+}
+
+
+.my-posts {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
